@@ -343,7 +343,7 @@ CREATE TABLE `reviews` (
 --
 
 INSERT INTO `reviews` (`review_id`, `product_id`, `name`, `email`, `review`, `datetime`, `rating`) VALUES
-(6, 1, 'support Reddy H C', 'puneethreddy951@gmail.com', 'this is my first review', '2020-11-04 19:14:10', 2),;
+(6, 1, 'support Reddy H C', 'puneethreddy951@gmail.com', 'this is my first review', '2020-11-04 19:14:10', 2);
 
 -- --------------------------------------------------------
 
@@ -367,7 +367,7 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
-(25, 'otheruser', 'user', 'otheruser@gmail.com', 'support', '12344465767', 'New York', 'Kumbalagodu');
+(12, 'otheruser', 'user', 'otheruser@gmail.com', 'support', '12344465767', 'New York', 'Kumbalagodu');
 
 --
 -- Triggers `user_info`
@@ -401,7 +401,7 @@ CREATE TABLE `user_info_backup` (
 --
 
 INSERT INTO `user_info_backup` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
-(25, 'otheruser', 'user', 'otheruser@gmail.com', 'puneet', '12344465767', 'New York', 'Kumbalagodu');
+(12, 'otheruser', 'user', 'otheruser@gmail.com', 'puneet', '12344465767', 'New York', 'Kumbalagodu');
 
 -- --------------------------------------------------------
 

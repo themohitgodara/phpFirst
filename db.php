@@ -2,8 +2,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$db = "onlineshop";
+$password = "1234";
+$db = "xyz";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
